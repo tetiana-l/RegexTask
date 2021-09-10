@@ -19,7 +19,7 @@ public class Regex {
 
     public static void checkData(String str) {
 
-        String regex = "[1-9][0-9]{3}/(0[1-9]|1[0-2])/(0[1-9]|[12][0-9]|3[0-2])\\s([01][0-9]|2[0-3]):([0-5][0-9])";
+        String regex = "[1-9][0-9]{3}/(0[1-9]|1[0-2])/(0[1-9]|[12][0-9]|3[0-1])\\s([01][0-9]|2[0-3]):([0-5][0-9])";
 
         boolean result = str.matches(regex);
         System.out.println(result);
